@@ -1,0 +1,7 @@
+Origin: ExamShield
+Label: ExamShield-Repo
+Codename: stable
+Architectures: amd64 i386
+Components: main
+Description: ExamShield Official Repository
+SignWith: 7202345E24090AE6

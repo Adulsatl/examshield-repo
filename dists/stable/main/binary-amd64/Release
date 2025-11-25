@@ -1,0 +1,5 @@
+Component: main
+Origin: ExamShield
+Label: ExamShield-Repo
+Architecture: amd64
+Description: ExamShield Official Repository
