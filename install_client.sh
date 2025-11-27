@@ -1,31 +1,39 @@
 #!/bin/bash
 # Usage: wget -qO- https://adulsatl.github.io/examshield-repo/install_client.sh | sudo bash
-
 set -e
-REPO_URL="https://adulsatl.github.io/examshield-repo" # I updated this based on your logs
+
+# --- CONFIGURATION ---
+REPO_URL="https://adulsatl.github.io/examshield-repo"
 KEY_URL="$REPO_URL/examshield.gpg.key"
 LIST_FILE="/etc/apt/sources.list.d/examshield.list"
 
-echo "🛡️  Configuring ExamShield Repository..."
+echo "🛡️  Setup ExamShield v3.0..."
 
-# --- FIX: Auto-install dependencies ---
-if ! command -v curl &> /dev/null || ! command -v gpg &> /dev/null; then
-    echo "🔧 Installing necessary tools (curl, gnupg)..."
-    sudo apt-get update
-    sudo apt-get install -y curl gnupg
+# 1. Cleanup old lists to prevent conflicts
+if [ -f "$LIST_FILE" ]; then
+    sudo rm -f "$LIST_FILE"
 fi
-# --------------------------------------
 
-# 1. Download Key (Now safe because curl is installed)
+# 2. Install Dependencies (Safe Mode)
+# We use '|| true' so the script doesn't crash if apt update fails due to college/office firewalls
+echo "🔧 Checking dependencies..."
+sudo apt-get update -y || true 
+sudo apt-get install -y curl gnupg || true
+
+# 3. Trust the GPG Key
 echo "🔑 Downloading security key..."
-curl -sS "$KEY_URL" | gpg --dearmor | sudo tee /usr/share/keyrings/examshield-archive-keyring.gpg > /dev/null
+curl -sS "$KEY_URL" | sudo apt-key add -
 
-# 2. Add Source
-echo "deb [signed-by=/usr/share/keyrings/examshield-archive-keyring.gpg] $REPO_URL stable main" | sudo tee "$LIST_FILE"
+# 4. Add Repository Source
+echo "📦 Adding repository..."
+echo "deb [arch=all] $REPO_URL stable main" | sudo tee "$LIST_FILE"
 
-# 3. Install
-echo "📦 Installing ExamShield..."
-sudo apt-get update
+# 5. Install ExamShield
+echo "⬇️  Installing Package..."
+# Update ONLY our specific list file to avoid wasting time/errors on other repos
+sudo apt-get update -o Dir::Etc::sourcelist="sources.list.d/examshield.list" \
+                    -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
+
 sudo apt-get install -y examshield
 
-echo "✅ Installation Complete!"
+echo "✅ Installation Complete! Run 'examshield' to start."
