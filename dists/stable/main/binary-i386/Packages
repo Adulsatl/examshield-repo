@@ -1,15 +1,15 @@
 Package: examshield
-Version: 2.8
+Version: 3.0
 Architecture: all
-Maintainer: Admin <admin@examshield.local>
+Maintainer: Admin
 Priority: optional
 Section: education
-Filename: pool/main/e/examshield/examshield_2.8_all.deb
-Size: 6192
-SHA256: 9b9d4682b6228987c3259a87761512b0f8f8ce0774aa577cd6f9af7f8c3e28bf
-SHA1: 7bbe8a5acc57531bfbf7200f74f7035c8e3b1dc2
-MD5sum: b6bbbf441914c0673f798b597dcfc66b
-Description: ExamShield Enterprise v2.8
+Filename: pool/main/e/examshield/examshield_3.0_all.deb
+Size: 5200
+SHA256: de289ca60376bfe3ce39f7971842ec185baccb236ebdf86bb8173ab232fcd3f9
+SHA1: 170c436ef221bfd1474fe4b28d24d7e9bb304dbf
+MD5sum: ce286ab8b45d1c0f0dec1a29b3332f1e
+Description: Enterprise Exam Security
 
 Package: examshield-installer
 Version: 2.8
