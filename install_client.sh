@@ -8,7 +8,7 @@ KEY_URL="$REPO_URL/examshield.gpg.key"
 LIST_FILE="/etc/apt/sources.list.d/examshield.list"
 KEYRING_PATH="/usr/share/keyrings/examshield-archive-keyring.gpg"
 
-echo "🛡️  Setup ExamShield v3.0..."
+echo "🛡️  Setup ExamShield v4.1..."
 
 # 1. Cleanup old lists to prevent conflicts
 if [ -f "$LIST_FILE" ]; then
@@ -19,22 +19,21 @@ if [ -f "$KEYRING_PATH" ]; then
 fi
 
 # 2. Install Dependencies (Safe Mode)
-# We use '|| true' so the script doesn't crash if apt update fails due to college/office firewalls
 echo "🔧 Checking dependencies..."
 sudo apt-get update -y || true 
 sudo apt-get install -y curl gnupg || true
 
-# 3. Trust the GPG Key (Modern Method - Fixes 'apt-key not found')
+# 3. Trust the GPG Key
 echo "🔑 Downloading security key..."
 curl -sS "$KEY_URL" | gpg --dearmor | sudo tee "$KEYRING_PATH" > /dev/null
 
 # 4. Add Repository Source
+# FIXED: Changed [arch=all] to [arch=amd64,i386] to match repo structure
 echo "📦 Adding repository..."
-echo "deb [arch=all signed-by=$KEYRING_PATH] $REPO_URL stable main" | sudo tee "$LIST_FILE"
+echo "deb [arch=amd64,i386 signed-by=$KEYRING_PATH] $REPO_URL stable main" | sudo tee "$LIST_FILE"
 
 # 5. Install ExamShield
 echo "⬇️  Installing Package..."
-# Update ONLY our specific list file to avoid wasting time/errors on other repos
 sudo apt-get update -o Dir::Etc::sourcelist="sources.list.d/examshield.list" \
                     -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
 

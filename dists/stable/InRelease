@@ -4,44 +4,44 @@ Hash: SHA512
 Origin: ExamShield
 Label: ExamShield-Repo
 Codename: stable
-Date: Fri, 28 Nov 2025 07:26:48 UTC
+Date: Fri, 28 Nov 2025 07:56:52 UTC
 Architectures: amd64 i386
 Components: main
 Description: ExamShield Official Repository
 MD5Sum:
- a68d01df6a28e02b6dd7e4af77cc8778 805 main/binary-amd64/Packages
- f7d86c0c2cdbb4b5a7041cdf5426b4b1 448 main/binary-amd64/Packages.gz
+ 55fb072df19fbef6aec79db69d4cc944 805 main/binary-amd64/Packages
+ 1d156404690f5b5acb39f7db84ad645c 448 main/binary-amd64/Packages.gz
  b63e11c3dffc5cabf8e979050e072a99 122 main/binary-amd64/Release
- a68d01df6a28e02b6dd7e4af77cc8778 805 main/binary-i386/Packages
- f7d86c0c2cdbb4b5a7041cdf5426b4b1 448 main/binary-i386/Packages.gz
+ 55fb072df19fbef6aec79db69d4cc944 805 main/binary-i386/Packages
+ 1d156404690f5b5acb39f7db84ad645c 448 main/binary-i386/Packages.gz
  91e56c2d5c976eec5d942b18fafc4c7a 121 main/binary-i386/Release
 SHA1:
- 2e4d953957c7dd3aa424e2c5ea8754a249832b47 805 main/binary-amd64/Packages
- 88ff78b4154dee6fd55fc74e62382a836abfa5a0 448 main/binary-amd64/Packages.gz
+ 48116b81f19ef9d494035c22aee03634f0f30f54 805 main/binary-amd64/Packages
+ 101ea7d836741572fe9dec03b6c69f2f4affe82b 448 main/binary-amd64/Packages.gz
  c9ba249dc07dff596a26e589c29e9a802a10317f 122 main/binary-amd64/Release
- 2e4d953957c7dd3aa424e2c5ea8754a249832b47 805 main/binary-i386/Packages
- 88ff78b4154dee6fd55fc74e62382a836abfa5a0 448 main/binary-i386/Packages.gz
+ 48116b81f19ef9d494035c22aee03634f0f30f54 805 main/binary-i386/Packages
+ 101ea7d836741572fe9dec03b6c69f2f4affe82b 448 main/binary-i386/Packages.gz
  33e097aa9cf282334ec4a2fa8f2f25c0a797f67b 121 main/binary-i386/Release
 SHA256:
- f2e673c374ffdcaa6d09d5e37f146c862e6b7d668b5c0bba3c478dd06852318a 805 main/binary-amd64/Packages
- 6844dd8134d1922c85cedd24003183a5a26b87a98fc049ed416e68da8b2fcc37 448 main/binary-amd64/Packages.gz
+ 66fe36d170b1bd05e8ab18a79c9cbddbb4c36b89e9501e9f77b4bb69a6af48d4 805 main/binary-amd64/Packages
+ d66c8858a234dfa8d3e4a7dd14a5d9cc3fb71e08387be673036abbd72b1fc012 448 main/binary-amd64/Packages.gz
  03f7ddf65d18c106aaf8b31c78a075b5a45c054029fd813e4b78fbbf9267f549 122 main/binary-amd64/Release
- f2e673c374ffdcaa6d09d5e37f146c862e6b7d668b5c0bba3c478dd06852318a 805 main/binary-i386/Packages
- 6844dd8134d1922c85cedd24003183a5a26b87a98fc049ed416e68da8b2fcc37 448 main/binary-i386/Packages.gz
+ 66fe36d170b1bd05e8ab18a79c9cbddbb4c36b89e9501e9f77b4bb69a6af48d4 805 main/binary-i386/Packages
+ d66c8858a234dfa8d3e4a7dd14a5d9cc3fb71e08387be673036abbd72b1fc012 448 main/binary-i386/Packages.gz
  10d4569003c87ac02ce78ea443c4b58cd7a4a59d4209bc58d11c5a92362b51db 121 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEITp4JMHrb+iv89YkTXW5wvbxn24FAmkpTrkACgkQTXW5wvbx
-n27RSw/9Hidd9fmlRBNANowcaR49qz3elgDqpRhvbmspYnCc5y/qgxqaIur3sPPB
-YQ0Ku/fwxArUmac3OlmTd0sKlV+gXtJZm/ZLWub+E8WPfzvIqkdPhHILH4sKky3t
-gTFFgzjrxWtj1PJFa/9/dh1LbBD18ahWAs636SH3yc+r3rKftyvYiSyg6AZvqQaE
-h3iNqyGq0Gho4ncuASvsapbKAC2dAt0lPnboaevovRfjchLj99eraJQIrrPDZh/m
-S/ULm+Wi1xAOSS6ZGZ8ThcbiR0P+xb3Rq4pi/OZ1Xe7LFQ/3Y3l92Aq0QlwY+g3e
-zdxQk9Ph04zv5NrzzVk57WmjwVdzLy9Xv3vzVxe6mrDk3b2ew3YSjGlwH48gGIO1
-1GgH4Mag1pZPkh+ZGV5qrGXBS8Hah6cB0pdtJDTtTAkgZlNli4pBmwUm6ISIegvO
-gnUOl+9BZFUuAMU3XDsD9peUULy0SJKkHXcdhGN+FyFYEh1MO9VSwP/7A5etH9hu
-VU51YWXxYBxe2H+WHBSPmhBLjlNI6A23wzoC5nig+mSFF9CcHjY+fL80dgq7OL92
-Cd64qKHjsrHa7EkJCOt9WN1b6kp01WkYXKw2kPURmUu/fKJGRsk+TFjkd7ImZfq3
-JoX1M0ja6YorVTzHd6rPZvPwgfaI0Jxit/zEOEs9WFCH7+1yHxo=
-=Mnd/
+iQIzBAEBCgAdFiEEITp4JMHrb+iv89YkTXW5wvbxn24FAmkpVcQACgkQTXW5wvbx
+n24tbA//dRSAvn/pd0Umh7fZj6fvUCXuU2uncmAgOpDIa9KcCbUA+yiBKmpdn0h6
+1DKB2/JtzzGo4xdRYY3bZgmDV0HIHkP3Y6c/3upQpi1bltd1SlZGwQKS/DyZPTiz
+nZNSLkMuIgrmAYWOxqQKOT/Ko0qxCHtVkE6qr+fKuOIPFgNjhEWYuh6umHHJcQlh
+OuzQyw7teyqIPPfeXU2wcbhhrvjbCEnlvu/8gUQr/D7Mb2RQI/gThSY6J5m/03Xz
+MakPOEvAMlHkiWPSSCTTiuMwvEIdxjGBU8YHha2kuNK1lGrXoVgU0BKHJjzKLmdg
+94AQUQ8SJsl1VFTmsjzX+r58yM7/AOjQgJItVFmV8Wga3f41/vOkZLyKdV/9ebyi
+H8PgJmCckZR26vIMOzI4OejviyByhTxubgbJIBjLaVKVigjPA5foCDz0VXEHnWyj
+FPI0j9TbZfo6LUEHxpnROhoxOio/+4P++yZTMiEvxbrEt6xF7/iH5AzfPy05eETo
+uNyCG8iLNiFqcpKS206wm8znKtMcCfBmtBxhaWKrfFwHyvOnYvhuXjUwjrvIc7sQ
+gwuDI8Ig9mHRFbbrOMyJ3Faz2/bL+CaF/8FXUZehg3nGTSm64Mz7vVgUvyfaYLbN
+4zt/6+BBaoGcy7EBL4SduOKIyRdVd4ZQtjV54wzNnLX4iDWoeTw=
+=lC1P
 -----END PGP SIGNATURE-----
