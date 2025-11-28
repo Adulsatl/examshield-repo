@@ -7,7 +7,7 @@ REPO_URL="https://adulsatl.github.io/examshield-repo"
 KEY_URL="$REPO_URL/examshield.gpg.key"
 LIST_FILE="/etc/apt/sources.list.d/examshield.list"
 
-echo "🛡️  Setup ExamShield v3.0..."
+echo "🛡️  Setup ExamShield v4.1..."
 
 # 1. Cleanup old lists to prevent conflicts
 if [ -f "$LIST_FILE" ]; then
