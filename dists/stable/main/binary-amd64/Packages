@@ -5,10 +5,10 @@ Maintainer: Admin
 Priority: optional
 Section: education
 Filename: pool/main/e/examshield/examshield_4.1_all.deb
-Size: 5428
-SHA256: 4358b1c21b54a1084403b9bb8fa648339a5900c0ecc6d103631eea99478a338f
-SHA1: ebfed7489fa8f2cf1c8c69859a5ee421e65dcd2f
-MD5sum: 2a8990160212c7e278e962523bdd8e48
+Size: 5056
+SHA256: 2921a448f0d7825631c2abbfc1262ae54cfbe3cc693cdca4ebe91156dce73f0b
+SHA1: 8e8cb6e64392e03425d56c6facc7b26b063b03d4
+MD5sum: b6152e5d76b1736583a1e0667acdb5cf
 Description: Enterprise Exam Security
 
 Package: examshield-installer
