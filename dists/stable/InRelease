@@ -4,44 +4,44 @@ Hash: SHA512
 Origin: ExamShield
 Label: ExamShield-Repo
 Codename: stable
-Date: Sat, 29 Nov 2025 05:54:31 UTC
+Date: Sat, 29 Nov 2025 06:05:19 UTC
 Architectures: amd64 i386
 Components: main
 Description: ExamShield Official Repository
 MD5Sum:
- 8efa2813ebcb66dcbd41b25ef83dbe2b 805 main/binary-amd64/Packages
- d09b8f4ffbeb3aea6d83d95e8fd757ca 449 main/binary-amd64/Packages.gz
+ 8d023957fef18e0d5fac95be11d4eb1f 827 main/binary-amd64/Packages
+ 04ca69d5fa2ca06bccbae4aeec6f44e6 456 main/binary-amd64/Packages.gz
  b63e11c3dffc5cabf8e979050e072a99 122 main/binary-amd64/Release
- 8efa2813ebcb66dcbd41b25ef83dbe2b 805 main/binary-i386/Packages
- d09b8f4ffbeb3aea6d83d95e8fd757ca 449 main/binary-i386/Packages.gz
+ 8d023957fef18e0d5fac95be11d4eb1f 827 main/binary-i386/Packages
+ 04ca69d5fa2ca06bccbae4aeec6f44e6 456 main/binary-i386/Packages.gz
  91e56c2d5c976eec5d942b18fafc4c7a 121 main/binary-i386/Release
 SHA1:
- 34dde65d18e02ca34f5cec7f1d34ae3a9ae44bab 805 main/binary-amd64/Packages
- 8a57ff4793ca08f3dc75b3482bd419a6716dd159 449 main/binary-amd64/Packages.gz
+ 23e9d7756970136b703151ca306776e250aa5dae 827 main/binary-amd64/Packages
+ 44488e964b4d5e7d7296f4da107e9e10266e4102 456 main/binary-amd64/Packages.gz
  c9ba249dc07dff596a26e589c29e9a802a10317f 122 main/binary-amd64/Release
- 34dde65d18e02ca34f5cec7f1d34ae3a9ae44bab 805 main/binary-i386/Packages
- 8a57ff4793ca08f3dc75b3482bd419a6716dd159 449 main/binary-i386/Packages.gz
+ 23e9d7756970136b703151ca306776e250aa5dae 827 main/binary-i386/Packages
+ 44488e964b4d5e7d7296f4da107e9e10266e4102 456 main/binary-i386/Packages.gz
  33e097aa9cf282334ec4a2fa8f2f25c0a797f67b 121 main/binary-i386/Release
 SHA256:
- 6edd946ec67e7f55e2b0f1e8049f0fca55f24f204b20e9c5d2e86aab6314f51e 805 main/binary-amd64/Packages
- c4ccb6f86f1f2fc5b34e5031b27fdbeb770bd3e00967b8edb4a3fc417b05e713 449 main/binary-amd64/Packages.gz
+ c8e854560c128c8bbe146c08590c1611b02a4022e33025f6d765fd48706e7be9 827 main/binary-amd64/Packages
+ fd8f97d3d8718181f61a17f667819a6f1c3f7372ea0fbbeedba56a81081dca9a 456 main/binary-amd64/Packages.gz
  03f7ddf65d18c106aaf8b31c78a075b5a45c054029fd813e4b78fbbf9267f549 122 main/binary-amd64/Release
- 6edd946ec67e7f55e2b0f1e8049f0fca55f24f204b20e9c5d2e86aab6314f51e 805 main/binary-i386/Packages
- c4ccb6f86f1f2fc5b34e5031b27fdbeb770bd3e00967b8edb4a3fc417b05e713 449 main/binary-i386/Packages.gz
+ c8e854560c128c8bbe146c08590c1611b02a4022e33025f6d765fd48706e7be9 827 main/binary-i386/Packages
+ fd8f97d3d8718181f61a17f667819a6f1c3f7372ea0fbbeedba56a81081dca9a 456 main/binary-i386/Packages.gz
  10d4569003c87ac02ce78ea443c4b58cd7a4a59d4209bc58d11c5a92362b51db 121 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEITp4JMHrb+iv89YkTXW5wvbxn24FAmkqipcACgkQTXW5wvbx
-n27NXQ/+O10KZsDM+SXQRKsgeqgH/hnnGP6rrbfi/sWv/j+1XmI00OIr5GVwfAjH
-wolQtLML68+D9yCMKwELe8Hairo7i77PrGTPREnyqmJdqqYOK6CWQvPyRLJI59Z0
-PWHhUgrg2mQnvdAd06wTNSecSKQkuRVohxrQyEZeZ3nKKrvPkR7owlVLDc5aZV4X
-M+xutcV6mIeYStMwiBDd5njJfrDzgKHeilTbtXUwVqWcvHRzs9P8JJyCEsKxghWH
-EUZbVPB3BcsKO6UbVAydo4XuW+UitlNghS89ZO5oMVVO/00TDU80QqgUD1wDUkbD
-Aaml9UfKkcTbGTe2rSDdaGALEuP1bICy3UJ3TPCcpkCQgaRlMPoqPb7Y1Z0aSLK4
-6GrN1C94PgQmY+2cCYsR7Y9DC/LoPLtjDofoKXTKvNB1XHKOot33+rTz7Pe2Pw+n
-sUDT7/45DfjGc1iOUxEjzGRQKS6zMrVj8edlV1c/HMsfrOVPFtXQKgaVOSXNsRdB
-0rAm/IY0qJiFybHpi+Jc4vjhMzyzNZyOkeidAFic1qPsRxEBaoEvzi50uSd+7lvO
-NtE6TZl2PIP1IGy25e189lTwcOzKkOgzgdF9AfZv6J5Or9SKKDyx6i3G+ccgKoBJ
-mU1It+K7iZuW8cjBxDL8VPKUFkKw5VzFAo8adxu/BftgXZvuWV4=
-=USXG
+iQIzBAEBCgAdFiEEITp4JMHrb+iv89YkTXW5wvbxn24FAmkqjR8ACgkQTXW5wvbx
+n25shA/6AlxLmhdPjRBptjZkl9b9AWCV93aUqOkThlxWbIK5EPVQ3r6zP2ZucQl4
+FivHzMCCm4AW961qPZq5itjOYPGp5MagdQegq532Gznc3nqhRp4XLP3Ama9IGxwm
+pisL9KferfkMmDhjJdbW4sIjPFaqZU59HyK50LlLKpQR9dHYJGqrFResbUUqQ9rU
+NPYwXMoP7bmpTmVDSmBVNp2zkrlSS0pM3ZADiuI+AqgDGk6QtxRJyi6R7ZWF+jZh
+Ua21GUs+DKtxHtcN14sg2fm7+s7oo8NbDFss5vH7zk1Sh1YvOGVMkuBBuCluO0Sb
+vkLG1g6PG1uVqSv+zQMh9mGeZDdUn9mQnkJMHxijuDZiAQVvPBo08T0VtV2dLM/3
+APt4PwR6QfNvQzZqHPS53qDPP+ixuO1cuGVnJh0x1ph5rIlV8syi3UVo1QlqQMNR
+WSJkO8nTEgiKcwRfJOhlDuNO6o8/ZS/9BsiTxSwcg1TcWQciQVhMKHMGwNGyKdVY
+cQ4YtlQPzkQM+wDL8oqQ1tcBtiVcpGzhYzd7+TbiwsSa87AouPyI3ZZSW3Fo83J6
++g9UICrsf1cUXhlCpJfXicCf1g5zZHKZqo3DKital+rpAuHXXJTNhVSGwlDbKOeN
+8/e8keeC3qLdwckNnzfpXuRJ4DrCbw2Gxp7ZGFgXDlAssgwKeEs=
+=VVIM
 -----END PGP SIGNATURE-----
