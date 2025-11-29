@@ -1,15 +1,15 @@
 Package: examshield
-Version: 4.1.1764401418
+Version: 4.1.1764405831
 Architecture: all
 Depends: python3, python3-tk, curl
 Maintainer: Admin
 Priority: optional
 Section: education
-Filename: pool/main/e/examshield/examshield_4.1.1764401418_all.deb
-Size: 5588
-SHA256: 8e30f63e11e63ddcc3c21e59822c416292218f952ed8258cd844b0e103373346
-SHA1: c439d19ff1798567ada388a77df07a0ca8de16f4
-MD5sum: 9e56d361079a73c0892c5ae149c391df
+Filename: pool/main/e/examshield/examshield_4.1.1764405831_all.deb
+Size: 5704
+SHA256: 84bd6edade2f8225098768bfa498d39624f8ad92763a85d43ed753d477e75fc5
+SHA1: 22bedb7f120059daddc8778793aa26a1038b2f9d
+MD5sum: 871919f932e9418bc933e4c47c8648b2
 Description: Enterprise Exam Security
 
 Package: examshield-installer
