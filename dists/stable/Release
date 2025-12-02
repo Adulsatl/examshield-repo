@@ -1,28 +1,28 @@
 Origin: ExamShield
 Label: ExamShield-Repo
 Codename: stable
-Date: Tue, 02 Dec 2025 10:27:30 UTC
+Date: Tue, 02 Dec 2025 11:03:21 UTC
 Architectures: amd64 i386
 Components: main
 Description: ExamShield Official Repository
 MD5Sum:
- 2b3badf073a12ef17fb95d195e2b1c8b 903 main/binary-amd64/Packages
- ba1d3d4f4e9b4f5bd707688c179ab6d9 503 main/binary-amd64/Packages.gz
+ 0099b7a152bb7f47fcac12bb64e2388a 903 main/binary-amd64/Packages
+ 2eedf669650ee6a294e256dbdf89cf01 503 main/binary-amd64/Packages.gz
  b63e11c3dffc5cabf8e979050e072a99 122 main/binary-amd64/Release
- 2b3badf073a12ef17fb95d195e2b1c8b 903 main/binary-i386/Packages
- ba1d3d4f4e9b4f5bd707688c179ab6d9 503 main/binary-i386/Packages.gz
+ 0099b7a152bb7f47fcac12bb64e2388a 903 main/binary-i386/Packages
+ 2eedf669650ee6a294e256dbdf89cf01 503 main/binary-i386/Packages.gz
  91e56c2d5c976eec5d942b18fafc4c7a 121 main/binary-i386/Release
 SHA1:
- bb520d643e61b99f8e753c38f82906855985d9b7 903 main/binary-amd64/Packages
- 69cb9af48e105ca1618384b9f2ad831d80cf37df 503 main/binary-amd64/Packages.gz
+ 9891ff0f786f249dbc46301bb5df568a4da0f3d8 903 main/binary-amd64/Packages
+ 93291b46b2b4215f7dbee49f653b9afc9603b1b8 503 main/binary-amd64/Packages.gz
  c9ba249dc07dff596a26e589c29e9a802a10317f 122 main/binary-amd64/Release
- bb520d643e61b99f8e753c38f82906855985d9b7 903 main/binary-i386/Packages
- 69cb9af48e105ca1618384b9f2ad831d80cf37df 503 main/binary-i386/Packages.gz
+ 9891ff0f786f249dbc46301bb5df568a4da0f3d8 903 main/binary-i386/Packages
+ 93291b46b2b4215f7dbee49f653b9afc9603b1b8 503 main/binary-i386/Packages.gz
  33e097aa9cf282334ec4a2fa8f2f25c0a797f67b 121 main/binary-i386/Release
 SHA256:
- 7a1411586a79512f0301d446fbedc64a4111549857ac5572db7599b60294c6dc 903 main/binary-amd64/Packages
- 59bb0292b0e7fe355aa8df308e2302d13d5974f9add32b53b567756f839ea61e 503 main/binary-amd64/Packages.gz
+ 1e298fe840bfa2f6153f9b7e67a2e6f9ad144923ab53fcadcf079af9ac3d5536 903 main/binary-amd64/Packages
+ 0a36fac689d4a139de1c07e669d6bfe54b0d55e61814abf363882042143ebf3e 503 main/binary-amd64/Packages.gz
  03f7ddf65d18c106aaf8b31c78a075b5a45c054029fd813e4b78fbbf9267f549 122 main/binary-amd64/Release
- 7a1411586a79512f0301d446fbedc64a4111549857ac5572db7599b60294c6dc 903 main/binary-i386/Packages
- 59bb0292b0e7fe355aa8df308e2302d13d5974f9add32b53b567756f839ea61e 503 main/binary-i386/Packages.gz
+ 1e298fe840bfa2f6153f9b7e67a2e6f9ad144923ab53fcadcf079af9ac3d5536 903 main/binary-i386/Packages
+ 0a36fac689d4a139de1c07e669d6bfe54b0d55e61814abf363882042143ebf3e 503 main/binary-i386/Packages.gz
  10d4569003c87ac02ce78ea443c4b58cd7a4a59d4209bc58d11c5a92362b51db 121 main/binary-i386/Release
