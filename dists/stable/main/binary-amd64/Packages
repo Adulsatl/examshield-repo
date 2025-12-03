@@ -1,3 +1,17 @@
+Package: examshield
+Version: 5.2.1764742929
+Architecture: all
+Depends: python3, python3-tk, curl, python3-pip, gnome-screenshot, iptables
+Maintainer: Admin
+Priority: optional
+Section: education
+Filename: pool/main/e/examshield/examshield_5.2.1764742929_all.deb
+Size: 5632
+SHA256: 990ea739778d2b438a9551d8bff80e905461dbed7db573080c95d860c780c824
+SHA1: 166edb9f2e72552a7c3ab42075f14f51b12cd127
+MD5sum: 3f392f14560bbe73aee0814ac8dde5f3
+Description: Enterprise Exam Security
+
 Package: examshield-installer
 Version: 2.8
 Architecture: all
